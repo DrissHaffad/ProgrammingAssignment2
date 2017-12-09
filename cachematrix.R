@@ -42,10 +42,10 @@ cacheSolve <- function(x, ...) {
 
 
 # A Simple Example
-Mat = matrix(c(1,2,3,5), byrow = T, nrow = 2)
-CachedMat = makeCacheMatrix(Mat) #Caching Data
-cacheSolve(CachedMat) #First Computation 
-cacheSolve(CachedMat) #Second Computation gives the cached data
+#Mat = matrix(c(1,2,3,5), byrow = T, nrow = 2)
+#CachedMat = makeCacheMatrix(Mat) #Caching Data
+#cacheSolve(CachedMat) #First Computation 
+#cacheSolve(CachedMat) #Second Computation gives the cached data
 
 
 
